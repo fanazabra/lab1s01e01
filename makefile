@@ -13,7 +13,7 @@ endif
 
 
 all:
-  $(CROSS_COMPILE)gcc $(INPUT) -o $(OUTPUT)
+	$(CROSS_COMPILE)gcc $(INPUT) -o $(OUTPUT)
 
 clean:
-  rm -rf $(OUTPUT)
+	rm -rf $(OUTPUT)
