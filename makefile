@@ -3,7 +3,7 @@ INPUT=./hello.c
 endif
 
 ifndef OUTPUT
-OUTPUT=./hello
+OUTPUT=./hello.txt
 endif
 
 ifndef CROSS_COMPILE
