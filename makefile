@@ -7,8 +7,8 @@ OUTPUT=./hello.txt
 endif
 
 ifndef CROSS_COMPILE
-#CROSS_COMPILE=./arm-2010.09/bin/arm-none-linux-gnueabi-
-CROSS_COMPILE=
+CROSS_COMPILE=./arm-2010.09/bin/arm-none-linux-gnueabi-
+#CROSS_COMPILE=
 endif
 
 
